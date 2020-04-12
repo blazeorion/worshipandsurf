@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Beyond';
+  src:  url('css/beyond_the_mountains-webfont.woff2') format('woff2'),
+        url('css/beyond_the_mountains-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'DeadStock';
+  src:  url('css/dead_stock_-_demo-webfont.woff2') format('woff2'),
+        url('css/dead_stock_-_demo-webfont.woff') format('woff');
+}
+
+.dead {
+font-family: 'DeadStock', Fallback, sans-serif;
+letter-spacing: .1rem;
+}
+
+.beyond {
+font-family: 'Beyond', Fallback, sans-serif;
+}
+
+    
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
